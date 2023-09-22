@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 
 # Load the pre-trained ML model (replace 'model.h5' with your model file)
-model = tf.keras.models.load_model('C:\\Users\\Aditya\\SIH_new_model.h5')
+model = tf.keras.models.load_model('SIH_new_model.h5')
 
 # Define class names (replace with your class labels)
 class_names = ['Nitrogen Deficient', 'Phosphorous Deficient', 'Potassium Deficient']
